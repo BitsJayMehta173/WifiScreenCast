@@ -2,6 +2,8 @@
 
 Download the project file in two Desktop.
 
+# Change the host with your ipv4 in receiver.py
+
 Run init.py on both the machines.
 
 Use as follows;

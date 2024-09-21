@@ -37,7 +37,7 @@ class ImageDisplayApp:
                     # Optionally, clear the label if there's an error
                     self.label.config(image=None)
 
-            time.sleep(1)  # Check for the file every second
+            # time.sleep(1)  # Check for the file every second
 
 def run_script(script_name):
     script_path = os.path.join(os.getcwd(), script_name)
@@ -45,9 +45,9 @@ def run_script(script_name):
 
 def on_selection(choice):
     if choice == 'Sender':
-        run_script('./sender/sender.py')  # Adjust this to your sender script name
+        run_script('./sender/sender.py')  # Change this to your sender script name
     elif choice == 'Receiver':
-        run_script('./receiver/receiver.py')  # Adjust this to your receiver script name
+        run_script('./receiver/receiver.py')  # Change this to your receiver script namez
 
 def create_main_window():
     root = tk.Tk()

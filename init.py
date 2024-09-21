@@ -9,9 +9,9 @@ def run_script(script_name):
 
 def on_selection(choice):
     if choice == 'Sender':
-        run_script('sender.py')  # Change this to your sender script name
+        run_script('./sender/sender.py')  # Change this to your sender script name
     elif choice == 'Receiver':
-        run_script('receiver.py')  # Change this to your receiver script name
+        run_script('./receiver/receiver.py')  # Change this to your receiver script namez
 
 # Create the main window
 root = tk.Tk()
